@@ -1,2 +1,5 @@
 # Build Files
 build/
+
+# MacOS System Files
+*.DS_Store
