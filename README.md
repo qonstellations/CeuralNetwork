@@ -1,0 +1,3 @@
+# Simple XOR Classification Neural Network in C
+
+### to be updated...
