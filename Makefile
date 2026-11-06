@@ -1,8 +1,10 @@
+CC = gcc
 TARGET = build/ceural_network
+INCDIR = include
 
 build:
 	@mkdir -p build
-	@gcc -Wall -o $(TARGET) src/*.c
+	@$(CC) -Wall -I$(INCDIR) -o $(TARGET) src/*.c
 	@echo "[make] build complete : $(TARGET)"
 
 run: build
